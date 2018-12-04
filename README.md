@@ -1,12 +1,6 @@
 # STOMP.js
 
-This library provides a STOMP client for Web browser (using Web Sockets) or node.js applications (either using raw TCP sockets or Web Sockets).
-
-# Project Status
-
-__This project is _no longer maintained_ ([some context about this decision](http://jmesnil.net/weblog/2015/09/04/stepping-out-from-personal-open-source-projects/)).__
-
-__If you encounter bugs with it or need enhancements, you can fork it and modify it as the project is under the Apache License 2.0.__
+This library is a fork of Jeff Mesnil & Jeff Lindsay's STOMP.js with an event listener on 'connectFailed' event
 
 ## Web Browser support
 
@@ -41,8 +35,6 @@ For development (testing, building) the project requires node.js. This allows us
 
 ## Building and Testing
 
-[![Build Status](https://secure.travis-ci.org/jmesnil/stomp-websocket.png)](http://travis-ci.org/jmesnil/stomp-websocket)
-
 To build JavaScript from the CoffeeScript source code:
 
     $ cake build
@@ -70,6 +62,7 @@ to send and receive STOMP messages from a server directly in the Web Browser or 
 
 ## Authors
 
+ * [Maxime Maurel](https://github.com/MMaurel)
  * [Jeff Mesnil](http://jmesnil.net/)
  * [Jeff Lindsay](http://github.com/progrium)
 
