@@ -27,6 +27,9 @@
     "type": "git",
     "url": "https://github.com/MMaurel/stomp-websocket"
   },
+  "publishConfig": {
+    "registry": "https://nexus.insgroup.fr/repository/inspm/"
+  }
   "keywords": [
     "STOMP",
     "Web sockets",
