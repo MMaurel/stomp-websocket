@@ -11,13 +11,13 @@ Online [documentation][doc] describes the library API (including the [annotated 
 
 ## node.js support
 
-Install the 'stompjs' module
+Install the 'stomperejs' module
 
-    $ npm install stompjs
+    $ npm install stomperejs
 
 In the node.js app, require the module with:
 
-    var Stomp = require('stompjs');
+    var Stomp = require('stomperejs');
 
 To connect to a STOMP broker over a TCP socket, use the `Stomp.overTCP(host, port)` method:
 
