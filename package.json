@@ -3,7 +3,6 @@
   "version": "2.3.4-next",
   "author": "Maxime Maurel <maxime@mmaurel.com>",
   "description": "STOMP for JavaScript apps (Web browser & node.js)",
-  "private": true,
   "scripts": {
     "build": "cake build",
     "test": "coffeelint -f coffeelint.json -r src && cake test"
@@ -26,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MMaurel/stomp-websocket"
+    "url": "https://github.com/MMaurel/stomperejs"
   },
   "publishConfig": {
     "registry": "https://nexus.insgroup.fr/repository/inspm/"
@@ -39,6 +38,6 @@
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/MMaurel/stomp-websocket/issues"
+    "url": "https://github.com/MMaurel/stomperejs/issues"
   }
 }
