@@ -1,4 +1,4 @@
-# STOMP.js
+# STOMPERE.js
 
 This library is a fork of Jeff Mesnil & Jeff Lindsay's STOMP.js with an event listener on 'connectFailed' event
 
